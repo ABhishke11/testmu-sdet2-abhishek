@@ -1,0 +1,20 @@
+[
+  {
+    "scenario": "empty email",
+    "email": "",
+    "password": "welcome01",
+    "expectedError": "Email is required"
+  },
+  {
+    "scenario": "invalid email format",
+    "email": "notanemail",
+    "password": "welcome01",
+    "expectedError": "Email format is invalid"
+  },
+  {
+    "scenario": "empty password",
+    "email": "customer@practicesoftwaretesting.com",
+    "password": "",
+    "expectedError": "Password is required"
+  }
+]

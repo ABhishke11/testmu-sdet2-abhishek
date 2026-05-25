@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "valid customer",
+    "email": "customer@practicesoftwaretesting.com",
+    "password": "welcome01",
+    "expectSuccess": true
+  },
+  {
+    "scenario": "wrong password",
+    "email": "customer@practicesoftwaretesting.com",
+    "password": "wrongpass",
+    "expectSuccess": false,
+    "expectedError": "Invalid email or password"
+  },
+  {
+    "scenario": "unknown email",
+    "email": "nobody@nowhere.com",
+    "password": "welcome01",
+    "expectSuccess": false,
+    "expectedError": "Invalid email or password"
+  }
+]

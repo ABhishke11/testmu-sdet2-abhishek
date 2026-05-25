@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": ["id", "name", "price", "in_stock"],
+  "properties": {
+    "id":       { "type": "string" },
+    "name":     { "type": "string" },
+    "price":    { "type": "number" },
+    "in_stock": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}
